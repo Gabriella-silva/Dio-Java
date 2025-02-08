@@ -7,7 +7,7 @@ public class ContaTerminal {
         /*Scanner terminal */
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
-        System.out.println("Bem vindo ao nosso banco! Deseja criar uma conta conosco? Para continuar digite SIM");
+        System.out.println("Bem vindo ao nosso banco! Deseja criar uma conta conosco? Para continuar digite **SIM**");
         String enter = scanner.next();
 
 
